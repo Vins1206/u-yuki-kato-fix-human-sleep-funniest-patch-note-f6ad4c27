@@ -1,7 +1,7 @@
-"""Sleep patch note, recovery cycle 1: the mental-tabs fix."""
+"""Sleep patch note, recovery cycle 2: the REM crash fix."""
 from pathlib import Path
 
-NOTE = "Fixed a bug where sleep required closing 47 mental tabs first; brains now shut down with one click."
+NOTE = "Fixed a bug where REM sleep crashed whenever the dream got good; dreams now play to the end credits."
 
 def main():
     # Gate: exactly one line, 1-160 chars, no trailing newline added.
