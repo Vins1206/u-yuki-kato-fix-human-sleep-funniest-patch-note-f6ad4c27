@@ -1,14 +1,15 @@
+"""Sleep patch note, recovery cycle 1: the mental-tabs fix."""
 from pathlib import Path
 
-ENTRY = "Fixed: sleep now starts on time, no longer delayed by replaying your most embarrassing moment from 2014 at 3 a.m."
+NOTE = "Fixed a bug where sleep required closing 47 mental tabs first; brains now shut down with one click."
 
 def main():
     # Gate: exactly one line, 1-160 chars, no trailing newline added.
-    assert 1 <= len(ENTRY) <= 160, len(ENTRY)
-    assert "\n" not in ENTRY
-    output = Path("/output/entry.txt")
-    output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(ENTRY, encoding="utf-8")
+    assert 1 <= len(NOTE) <= 160, len(NOTE)
+    assert "\n" not in NOTE
+    target = Path("/output/entry.txt")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(NOTE, encoding="utf-8")
 
 if __name__ == "__main__":
     main()

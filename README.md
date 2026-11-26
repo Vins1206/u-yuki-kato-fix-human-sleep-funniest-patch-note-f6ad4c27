@@ -10,9 +10,9 @@ A [make.fun](https://make.fun/bounty/u-yuki-kato-fix-human-sleep-funniest-patch-
 
 `main.py` (Python stdlib only) writes exactly one line of patch notes to `/output/entry.txt` — a funny, changelog-plausible announcement that human sleep has been fixed:
 
-> Fixed: sleep now starts on time, no longer delayed by replaying your most embarrassing moment from 2014 at 3 a.m.
+> Fixed a bug where sleep required closing 47 mental tabs first; brains now shut down with one click.
 
-113 characters, one line, no trailing explanation.
+99 characters, one line, no trailing explanation.
 
 ## How to run
 
